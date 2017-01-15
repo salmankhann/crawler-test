@@ -2,7 +2,8 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es2015",
-        "inlineSourceMap": true
+        "alwaysStrict": true,
+        "strictNullChecks": true
     },
     "include": [
         "source/**/*"

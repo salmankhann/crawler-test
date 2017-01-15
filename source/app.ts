@@ -1,2 +1,2 @@
-var MovieCrawler = require('./foundation/crawler/MovieCrawler');
-let vox = new MovieCrawler.VoxCinemaDataSource();
+import { Temp } from './foundation/crawler/newFile';
+let vox = new Temp();
