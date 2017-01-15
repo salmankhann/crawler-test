@@ -1,0 +1,33 @@
+{
+  "name": "moviecrawler",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "nodemon": "nodemon ./source/app.js",
+    "tsc": "./node_modules/.bin/typescript tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.17.31",
+    "@types/jquery": "^2.0.33",
+    "@types/node-fetch": "^1.6.5",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.0.7",
+    "webpack": "*"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "es6-promise": "^4.0.5",
+    "express": "^4.14.0",
+    "imdb-api": "^2.2.1",
+    "json-loader": "^0.5.4",
+    "rss-to-json": "^1.0.2",
+    "ts-loader": "^1.0.0",
+    "typescript": "^2.1.5",
+    "url-parse": "^1.1.7"
+  }
+}

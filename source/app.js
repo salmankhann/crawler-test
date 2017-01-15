@@ -1,0 +1,3 @@
+var MovieCrawler = require('./foundation/crawler/MovieCrawler');
+let vox = new MovieCrawler.VoxCinemaDataSource();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLElBQUksWUFBWSxHQUFHLE9BQU8sQ0FBQyxtQ0FBbUMsQ0FBQyxDQUFDO0FBQ2hFLElBQUksR0FBRyxHQUFHLElBQUksWUFBWSxDQUFDLG1CQUFtQixFQUFFLENBQUMifQ==
