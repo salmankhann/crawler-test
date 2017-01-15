@@ -1,14 +1,10 @@
 import { Promise } from 'es6-promise';
-var fetch = require('node-fetch');
-var $ = require('cheerio');
-var parse = require('url-parse');
-var fs = require('fs');
-var imdb = require('imdb-api');
+import fetch = require('node-fetch');
+import $ = require('cheerio');
+import parse = require('url-parse');
+import fs = require('fs');
+import imdb = require('imdb-api');
 
-
-namespace MovieCrawler {
-    
-    export interface CinemaNetworkMechanism {
-        fetchData(fromUrl: string);
-    }
+export interface CinemaNetworkMechanism {
+    fetchData(fromUrl: string);
 }

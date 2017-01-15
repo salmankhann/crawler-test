@@ -1,9 +1,6 @@
-/// <reference path="MovieCrawler.ts" />
+import { CinemaNetworkMechanism } from './MovieCrawler';
 
-namespace MovieCrawler {
-    class Temp implements CinemaNetworkMechanism {
-        fetchData(fromUrl: string){
-            
-        }
+export class Temp implements CinemaNetworkMechanism {
+    fetchData(fromUrl: string) {
     }
 }
